@@ -11,7 +11,7 @@ oReq.addEventListener("load", reqListener);
 oReq.open("GET", "data.json");
 oReq.send();
 
-console.log("hello from the outside: " + obj.data.id);
+console.log("hello from the outside: " + obj.data.words);
 
 // function([string1, string2],target id,[color1,color2])
 consoleText(['Hello World.', 'Console Text', 'Made with Love.'], 'text',['tomato','rebeccapurple','lightblue']);
