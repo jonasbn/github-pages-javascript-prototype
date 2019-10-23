@@ -1,6 +1,18 @@
 // function([string1, string2],target id,[color1,color2])
 consoleText(['Hello World.', 'Console Text', 'Made with Love.'], 'text',['tomato','rebeccapurple','lightblue']);
 
+function read_json() {
+    $.getJSON("/data.json", function(data) {
+        alert("id: " + data["id"]);
+        $.each(data["words"], function(idx,word) {
+            console.log("word: " + word);
+        });
+        $.each(data["colors"], function(idx,color) {
+            console.log("color: " + color);
+        });
+    });
+}
+
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];
   var visible = true;

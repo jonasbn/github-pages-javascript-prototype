@@ -1,0 +1,5 @@
+{
+    "words": ["Hello World.", "Console Text", "Made with Love."],
+    "id": "text",
+    "colors": ["tomato","rebeccapurple","lightblue"]
+}
