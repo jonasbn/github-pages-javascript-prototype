@@ -1,5 +1,22 @@
+
+var request = new XMLHttpRequest();
+request.open('GET', '/data.json', true);
+
+request.onload = function() {
+  if (request.status >= 200 && request.status < 400) {
+    // Success!
+    var data = JSON.parse(request.responseText);
+    console.log(data);
+  } else {
+    // We reached our target server, but it returned an error
+
+  }
+};
+
 // function([string1, string2],target id,[color1,color2])
 consoleText(['Hello World.', 'Console Text', 'Made with Love.'], 'text',['tomato','rebeccapurple','lightblue']);
+
+
 
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];
