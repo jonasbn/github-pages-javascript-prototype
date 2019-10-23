@@ -1,9 +1,9 @@
 
-var object;
+var obj;
 
 function reqListener () {
     console.log(this.responseText);
-    object = JSON.parse(this.responseText);
+    obj = JSON.parse(this.responseText);
 }
 
 var oReq = new XMLHttpRequest();
@@ -11,10 +11,9 @@ oReq.addEventListener("load", reqListener);
 oReq.open("GET", "data.json");
 oReq.send();
 
+console.log("hello from the outside: " + obj);
+
 // function([string1, string2],target id,[color1,color2])
-
-console.log("hello from the outside: " + object);
-
 consoleText(['Hello World.', 'Console Text', 'Made with Love.'], 'text',['tomato','rebeccapurple','lightblue']);
 
 function consoleText(words, id, colors) {
