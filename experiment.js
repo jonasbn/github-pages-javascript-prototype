@@ -1,6 +1,8 @@
 // function([string1, string2],target id,[color1,color2])
 consoleText(['Hello World.', 'Console Text', 'Made with Love.'], 'text',['tomato','rebeccapurple','lightblue']);
 
+read_json();
+
 function read_json() {
     $.getJSON("/data.json", function(data) {
         alert("id: " + data["id"]);
