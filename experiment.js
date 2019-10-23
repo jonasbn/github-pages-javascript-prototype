@@ -1,11 +1,9 @@
 
-var obj = { data: {} };
-
 function reqListener () {
     console.log("Response text: " + this.responseText);
-    obj.data = JSON.parse(this.responseText);
+    var obj = JSON.parse(this.responseText);
 
-    console.log("object: " + obj.data);
+    console.log("object: " + obj);
     consoleText(['Hello World.', 'Console Text', 'Made with Love.'], 'text',['tomato','rebeccapurple','lightblue']);
 }
 
@@ -13,8 +11,6 @@ var oReq = new XMLHttpRequest();
 oReq.addEventListener("load", reqListener);
 oReq.open("GET", "data.json");
 oReq.send();
-
-console.log("hello from the outside: " + obj.data);
 
 // function([string1, string2],target id,[color1,color2])
 
