@@ -9,7 +9,7 @@ request.onload = function() {
     console.log(data);
   } else {
     // We reached our target server, but it returned an error
-
+    alert("an error occurred");
   }
 };
 
