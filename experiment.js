@@ -4,7 +4,8 @@ function reqListener () {
     var obj = JSON.parse(this.responseText);
 
     console.log("object: ", obj);
-    consoleText(['Hello World.', 'Console Text', 'Made with Love.'], 'text',['tomato','rebeccapurple','lightblue']);
+    //consoleText(['Hello World.', 'Console Text', 'Made with Love.'], 'text',['tomato','rebeccapurple','lightblue']);
+    consoleText(obj.words, obj.id, obj.colors);
 }
 
 var oReq = new XMLHttpRequest();

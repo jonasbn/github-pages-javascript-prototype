@@ -1,5 +1,5 @@
 {
-    "words": ["Hello World.", "Console Text", "Made with Love."],
+    "words": ["Hello World, JavaScript is Awesome", "Console Text", "Made with Love."],
     "id": "text",
     "colors": ["tomato","rebeccapurple","lightblue"]
 }
