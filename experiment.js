@@ -3,7 +3,7 @@ function reqListener () {
     console.log("Response text: " + this.responseText);
     var obj = JSON.parse(this.responseText);
 
-    console.log("object: " + obj);
+    console.log("object: ", obj);
     consoleText(['Hello World.', 'Console Text', 'Made with Love.'], 'text',['tomato','rebeccapurple','lightblue']);
 }
 
