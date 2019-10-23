@@ -2,7 +2,7 @@
 var obj = { data: {} };
 
 function reqListener () {
-    console.log(this.responseText);
+    // console.log(this.responseText);
     obj.data = JSON.parse(this.responseText);
 }
 
@@ -11,7 +11,7 @@ oReq.addEventListener("load", reqListener);
 oReq.open("GET", "data.json");
 oReq.send();
 
-console.log("hello from the outside: " + obj.date);
+console.log("hello from the outside: " + obj.data);
 
 // function([string1, string2],target id,[color1,color2])
 consoleText(['Hello World.', 'Console Text', 'Made with Love.'], 'text',['tomato','rebeccapurple','lightblue']);
