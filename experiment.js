@@ -6,6 +6,7 @@ function reqListener () {
     obj.data = JSON.parse(this.responseText);
 
     console.log("object: " + obj.data);
+    consoleText(['Hello World.', 'Console Text', 'Made with Love.'], 'text',['tomato','rebeccapurple','lightblue']);
 }
 
 var oReq = new XMLHttpRequest();
@@ -16,7 +17,6 @@ oReq.send();
 console.log("hello from the outside: " + obj.data);
 
 // function([string1, string2],target id,[color1,color2])
-consoleText(['Hello World.', 'Console Text', 'Made with Love.'], 'text',['tomato','rebeccapurple','lightblue']);
 
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];
