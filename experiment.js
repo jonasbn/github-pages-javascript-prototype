@@ -13,7 +13,7 @@ oReq.send();
 
 // function([string1, string2],target id,[color1,color2])
 
-console.log("hello from the outside: " + obj);
+console.log("hello from the outside: " + object);
 
 consoleText(['Hello World.', 'Console Text', 'Made with Love.'], 'text',['tomato','rebeccapurple','lightblue']);
 
