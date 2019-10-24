@@ -1,10 +1,6 @@
 
 function reqListener () {
-    console.log("Response text: " + this.responseText);
     var obj = JSON.parse(this.responseText);
-
-    console.log("object: ", obj);
-    //consoleText(['Hello World.', 'Console Text', 'Made with Love.'], 'text',['tomato','rebeccapurple','lightblue']);
     consoleText(obj.words, obj.id, obj.colors);
 }
 
@@ -14,7 +10,6 @@ oReq.open("GET", "data.json");
 oReq.send();
 
 // function([string1, string2],target id,[color1,color2])
-
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];
   var visible = true;
