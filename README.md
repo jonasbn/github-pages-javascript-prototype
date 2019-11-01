@@ -3,8 +3,6 @@
 
 _- Experimenting with GitHub pages and JavaScript_
 
-![GitHub Workflow build status badge](https://github.com/jonasbn/til/workflows/Markdownlint%20Workflow/badge.svg)
-
 ## Introduction
 
 This experiement and prototype project was triggered with the question:
