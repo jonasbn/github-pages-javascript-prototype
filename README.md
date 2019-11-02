@@ -122,15 +122,15 @@ The one thing that I would really like to try out at this time is extending the 
 Thanks to all the people, who unknowningly have contributed to this work.
 
 - [Tobias](https://codepen.io/Tbgse)
-- Tania Rascia
-- Matt West
+- [Tania Rascia](https://twitter.com/taniarascia)
+- [Matt West](https://twitter.com/mattantwest)
 - The people contributing to StackOverflow and Mozilla Developer Network
 
 Almost all of the resources mentioned above are listed here:
 
 - Example lifted from [Codepen.io]: ["Terminal Text Effect"][terminal_text_effect] by [Tobias](https://codepen.io/Tbgse)
-- HTML skeleton from Blog post: ["Basic HTML5 Skeleton File"][basic_html5_skeleton_file] by Tania Rascia
-- Experiment inspired by blog post: ["Using GitHub Pages To Host Your Website"][treehouse_blog] by Matt West
+- HTML skeleton from Blog post: ["Basic HTML5 Skeleton File"][basic_html5_skeleton_file] by [Tania Rascia](https://twitter.com/taniarascia)
+- Experiment inspired by blog post: ["Using GitHub Pages To Host Your Website"][treehouse_blog] by [Matt West](https://twitter.com/mattantwest)
 
 - [MDN: "Using XMLHttpRequest"][mdn_xhr]
 - [MDN: `JSON.parse()`][mdn_json_parse]
