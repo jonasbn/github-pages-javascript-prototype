@@ -5,7 +5,7 @@ _- Experimenting with GitHub Pages and JavaScript_
 
 ## Introduction
 
-This experiement and prototype project was triggered with the question:
+This experiment and prototype project was triggered with the question:
 
 > Can you host semi-interactive pages with data using [GitHub Pages][github_pages]?
 
@@ -21,7 +21,7 @@ Now it is time to dig into the process.
 
 I am by no means a frontend developer and and my JavaScript it _pretty_ since it was primarily pre-jQuery and early jQuery. I am experimenting a bit with [Vue] on the side and I did a [React] tutorial and [Svelte] is on my list of technologies to evaluate.
 
-1. I _googled_  a bit and found a blog post entitled ["Using GitHub Pages To Host Your Website"][treehouse_blog], after reading this and it supported my own expereince I was confident I could accomplish something
+1. I _googled_  a bit and found a blog post entitled ["Using GitHub Pages To Host Your Website"][treehouse_blog], after reading this and it supported my own experience I was confident I could accomplish something
 
 2. I went to [Codepen.io] and found a beautiful _pen_ called ["Terminal Text Effect"][terminal_text_effect], do check it out. This _pen_ holds HTML, CSS and JavaScript, so I have all the building blocks I need
 
@@ -88,9 +88,9 @@ It took some time to get it to work, but I am glad that I could answer my origin
 
 Programming is hard and wrapping your head around new concepts, technologies, challenges and constraints is hard, but it is also immensely fun and rewarding.
 
-Reflecting on the proces, I find that keeping the goal small and constrained and not letting the scope creep, lets you focus on the task at hand and the goal.
+Reflecting on the process, I find that keeping the goal small and constrained and not letting the scope creep, lets you focus on the task at hand and the goal.
 
-Yes the challenge might seem overly simple and it seems everybody else can solve it faster and better. Everytime you run into a problem you are faced with imposter syndrome, but remember it is a process and you are learning.
+Yes the challenge might seem overly simple and it seems everybody else can solve it faster and better. Every time you run into a problem you are faced with imposter syndrome, but remember it is a process and you are learning.
 
 I am expanding from having worked primarily with middle-tier and backend solutions for many years to the frontend. It is _very_ hard and I feel _stupid_ all the time. But in my experience when I have struggled long enough with a particular problem and have asked for help, people with more experience in the particular field have been incredibly helpful and have sent me in the right direction and have never experienced somebody pointing fingers.
 
@@ -102,14 +102,14 @@ So solving this basic task and getting helpful assistance when really needed, ha
 
 I decided how to start with a _vanilla_ solution.
 
-The next steps could be to dwelve into experiments/prototypes based on:
+The next steps could be to delve into experiments/prototypes based on:
 
 1. [Jekyll], getting more from the standard and by GitHub chosen static site generator
-1. [Hugo], evaluating the use of an altertive static site generator
+1. [Hugo], evaluating the use of an alternative static site generator
 1. [Vue], not limiting implementation to vanilla JavaScript
 1. [React], again not limiting implementation to vanilla JavaScript
 1. [Svelte], and yet again not limiting implementation to vanilla JavaScript
-1. [D3], perhaps even doing beautiful visualisations or graphs
+1. [D3], perhaps even doing beautiful visualizations or graphs
 
 These could all be basic proof of concept like projects. At some point I do however want to go deeper, based on a real project and of course the best fit candidate for the optimal solution.
 
