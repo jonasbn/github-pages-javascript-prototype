@@ -54,7 +54,7 @@ I am by no means a frontend developer and and my JavaScript it _pretty_ since it
     }
     ```
 
-    I implemented a request to read the JSON file:
+    I implemented a XML HTTP request in [my JavaScript](https://github.com/jonasbn/github-pages-javascript-prototype/blob/master/experiment.js) to read the JSON file:
 
     ```javascript
     var oReq = new XMLHttpRequest();
@@ -72,7 +72,7 @@ I am by no means a frontend developer and and my JavaScript it _pretty_ since it
     }
     ```
 
-    So when the page has loaded my JavaScript reads the JSON data file and calls the awesome JavaScript from the _pen_ and I can now control the text rendered by changing and committing a new revision JSON data file.
+    So when the page has loaded [my JavaScript](https://github.com/jonasbn/github-pages-javascript-prototype/blob/master/experiment.js) reads the JSON data file and calls the awesome JavaScript from the _pen_ and I can now control the text rendered by changing and committing a new revision JSON data file.
 
     This all required alot of reading and experimentation (the number of commits shows), I needed to understand [XMLHttpRequest][mdn_xhr] and [JSON parsing][mdn_json_parse] and I really had a hard trying [get data out of the event listener][mdn_event_listener_data_out] until I understood the order of things.
 
@@ -118,6 +118,13 @@ The one thing that I would really like to try out at this time is extending the 
 > Can you host semi-interactive pages with **external** data using [GitHub Pages][github_pages]?
 
 ## Resources
+
+Thanks to all the people, who unknowningly have contributed to this work.
+
+- [Tobias](https://codepen.io/Tbgse)
+- Tania Rascia
+- Matt West
+- The people contributing to StackOverflow and Mozilla Developer Network
 
 Almost all of the resources mentioned above are listed here:
 
