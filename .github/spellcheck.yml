@@ -1,0 +1,51 @@
+matrix:
+- name: Markdown
+  sources:
+  - '**/*.md'
+  default_encoding: utf-8
+  aspell:
+    lang: en
+  dictionary:
+    wordlists:
+    - .github/wordlist.txt
+    encoding: utf-8
+  pipeline:
+  - pyspelling.filters.markdown:
+      markdown_extensions:
+      - pymdownx.superfences
+  - pyspelling.filters.html:
+      comments: false
+      ignores:
+      - code
+      - pre
+- name: JavaScript
+  sources:
+  - '**/*.js'
+  default_encoding: utf-8
+  aspell:
+    lang: en
+  dictionary:
+    wordlists:
+    - .github/wordlist.txt
+    encoding: utf-8
+  pipeline:
+  - pyspelling.filters.javascript:
+      jsdocs: true
+      line_comments: false
+      block_comments: false
+- name: Html
+  sources:
+  - '**/*.html'
+  default_encoding: utf-8
+  aspell:
+    lang: en
+  dictionary:
+    wordlists:
+    - .github/wordlist.txt
+    encoding: utf-8
+  pipeline:
+  - pyspelling.filters.html:
+      comments: false
+      ignores:
+      - code
+      - pre
