@@ -9,7 +9,7 @@ This experiment and prototype project was triggered with the question:
 
 > Can you host semi-interactive pages with data using [GitHub Pages][github_pages]?
 
-I have [blogged][last_mover] about using [GitHub Pages][github_pages] previously, but simply for generating a webpage based on rendering of Markdown formatted content.
+I have [blogged][last_mover] about using [GitHub Pages][github_pages] previously, but simply for generating a web page based on rendering of Markdown formatted content.
 
 I know it is possible to alter the standard themes using [Sass], but I have not gotten into more dynamic solutions, since I got my first itch scratched (see the mentioned [blog post][last_mover]).
 
@@ -74,7 +74,7 @@ I am by no means a frontend developer and and my JavaScript it _pretty_ since it
 
     So when the page has loaded [my JavaScript](https://github.com/jonasbn/github-pages-javascript-prototype/blob/master/experiment.js) reads the JSON data file and calls the awesome JavaScript from the _pen_ and I can now control the text rendered by changing and committing a new revision JSON data file.
 
-    This all required alot of reading and experimentation (the number of commits shows), I needed to understand [XMLHttpRequest][mdn_xhr] and [JSON parsing][mdn_json_parse] and I really had a hard trying [get data out of the event listener][mdn_event_listener_data_out] until I understood the order of things.
+    This all required a lot of reading and experimentation (the number of commits shows), I needed to understand [XMLHttpRequest][mdn_xhr] and [JSON parsing][mdn_json_parse] and I really had a hard trying [get data out of the event listener][mdn_event_listener_data_out] until I understood the order of things.
 
     One thing I did learn from all of this is JavaScript programming and frontend development is not the same, it uses the same language, but the context of the browser is a very different world from doing katas or similar for learning JavaScript programming.
 
@@ -113,13 +113,13 @@ The next steps could be to delve into experiments/prototypes based on:
 
 These could all be basic proof of concept like projects. At some point I do however want to go deeper, based on a real project and of course the best fit candidate for the optimal solution.
 
-The one thing that I would really like to try out at this time is extending the prototype with use of an external data source as stated previously I decided to host the data locally, so this step would be a natural path forward. This will push the work into the security realm and content security policies, so I expect I need to get a more thorough understanding of this especially in relation to [Github Pages][github_pages], but it would certainly bring more value to the table to be able to answer the extended question:
+The one thing that I would really like to try out at this time is extending the prototype with use of an external data source as stated previously I decided to host the data locally, so this step would be a natural path forward. This will push the work into the security realm and content security policies, so I expect I need to get a more thorough understanding of this especially in relation to [GitHub Pages][github_pages], but it would certainly bring more value to the table to be able to answer the extended question:
 
 > Can you host semi-interactive pages with **external** data using [GitHub Pages][github_pages]?
 
 ## Resources
 
-Thanks to all the people, who unknowningly have contributed to this work.
+Thanks to all the people, who unknowingly have contributed to this work.
 
 - [Tobias](https://codepen.io/Tbgse)
 - [Tania Rascia](https://twitter.com/taniarascia)
